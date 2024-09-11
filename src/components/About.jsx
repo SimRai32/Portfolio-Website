@@ -7,9 +7,12 @@ export default function About() {
         About Me
       </Heading>
       <Text fontSize="lg">
-        I'm a web developer with a passion for creating beautiful and functional
-        websites. With experience in React, Node.js, and database management, I
-        love tackling complex problems and turning ideas into reality.
+        When I'm not coding, you might find me rooting for my favorite hockey
+        team (go Canucks!), shooting hoops and working on my shooting, or
+        competing in Super Smash Brothers Melee tournaments. I love the thrill
+        of the game and the community around it! If you're interested in
+        watching me compete in a tournament, check out the video above. Let’s
+        connect if you share any of these passions!
       </Text>
     </Box>
   );

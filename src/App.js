@@ -1,14 +1,21 @@
 import React from "react";
 import {
   Skills,
-  About,
   Contact,
   Header,
   Home,
   Projects,
+  Images,
   Timeline,
 } from "./components";
 import { ChakraProvider, Box, VStack, Container } from "@chakra-ui/react";
+
+const collageImages = [
+  "/imgs/hike.jpg",
+  "/imgs/smashCompete.jpg",
+  "/imgs/snowboard.jpg",
+  "/imgs/profilePic.jpg",
+];
 
 function App() {
   return (
@@ -17,10 +24,11 @@ function App() {
         <Header />
         <Container maxW="container.xl" position="relative" zIndex={3}>
           <VStack spacing={20} align="stretch">
+            <br />
+            <Images images={collageImages} videoId="CfoeBOWMLL0" />
             <Home />
             <Timeline />
             <Projects />
-            <About />
             <Skills />
             <Contact />
           </VStack>
