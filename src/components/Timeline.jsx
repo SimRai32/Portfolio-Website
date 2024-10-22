@@ -5,7 +5,7 @@ export default function Timeline() {
   const timelineItems = [
     {
       year: "May 2024 - Present",
-      title: "Junior Developer",
+      title: "Software Developer",
       company: "Eudara",
       description: "Leading frontend development for major projects.",
     },
